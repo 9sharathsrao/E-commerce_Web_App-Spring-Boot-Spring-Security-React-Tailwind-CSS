@@ -1,0 +1,24 @@
+### Java / Spring Boot (clickNbuy-SpringBoot-RESTAPI) ###
+clickNbuy-SpringBoot-RESTAPI/target/
+clickNbuy-SpringBoot-RESTAPI/.project
+clickNbuy-SpringBoot-RESTAPI/.classpath
+clickNbuy-SpringBoot-RESTAPI/.settings/
+clickNbuy-SpringBoot-RESTAPI/.factorypath
+clickNbuy-SpringBoot-RESTAPI/bin/
+clickNbuy-SpringBoot-RESTAPI/*.class
+clickNbuy-SpringBoot-RESTAPI/*.jar
+
+### Frontend (clink-n-buy-frontend) ###
+clink-n-buy-frontend/node_modules/
+clink-n-buy-frontend/dist/
+clink-n-buy-frontend/build/
+clink-n-buy-frontend/.eslintcache
+clink-n-buy-frontend/.vscode/
+
+### Security & Sensitive Info ###
+# Hides your database credentials
+clickNbuy-SpringBoot-RESTAPI/src/main/resources/application.properties
+
+### System Files ###
+.DS_Store
+Thumbs.db

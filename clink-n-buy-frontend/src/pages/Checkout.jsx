@@ -50,7 +50,7 @@ const Checkout = () => {
 
       // 2. Razorpay Options
       const options = {
-        key: "rzp_test_S13LnXHNXpFLqs",
+        key: "rzp_test_S9hIra1lWrM3gm",
         amount: orderData.totalCost * 100,
         currency: "INR",
         name: "ClinkNBuy",
