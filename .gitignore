@@ -7,6 +7,7 @@ clickNbuy-SpringBoot-RESTAPI/.factorypath
 clickNbuy-SpringBoot-RESTAPI/bin/
 clickNbuy-SpringBoot-RESTAPI/*.class
 clickNbuy-SpringBoot-RESTAPI/*.jar
+clickNbuy-SpringBoot-RESTAPI/src/main/resources/application.properties
 
 ### Frontend (clink-n-buy-frontend) ###
 clink-n-buy-frontend/node_modules/
