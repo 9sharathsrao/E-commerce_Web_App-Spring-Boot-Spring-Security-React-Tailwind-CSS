@@ -19,22 +19,22 @@ https://github.com/user-attachments/assets/fb7b7e94-8ad8-4803-ab7b-16b573368a67
 ## 📸 Screenshots
 
 ### Login page
-[![Login](screenshots/home.png)](screenshots/login_page.png)
+[![Login](screenshots/login_page.png)](screenshots/login_page.png)
 
 ### Login success
-[![LoginSuccess](screenshots/product_details.png)](screenshots/login_pg_success.png)
+[![LoginSuccess](screenshots/login_pg_success.png)](screenshots/login_pg_success.png)
 
 ### Registration page
-[![Registration](screenshots/cart.png)](screenshots/register_pg.png)
+[![Registration](screenshots/register_pg.png)](screenshots/register_pg.png)
 
 ### Registration OTP
-[![RegistrationSuccess](screenshots/payment.png)](screenshots/register_pg_otp.png)
+[![RegistrationOTP](screenshots/register_pg_otp.png)](screenshots/register_pg_otp.png)
 
 ### OTP page
-[![OTP](screenshots/orders.png)](screenshots/otp_pg.png)
+[![OTP](screenshots/otp_pg.png)](screenshots/otp_pg.png)
 
 ### OTP success
-[![OTPsuccess](screenshots/orders.png)](screenshots/otp_page_success.png)
+[![OTPsuccess](screenshots/otp_pg_success.png)](screenshots/otp_pg_success.png)
 
 ---
 
