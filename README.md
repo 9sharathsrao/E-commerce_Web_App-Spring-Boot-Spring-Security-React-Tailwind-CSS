@@ -1,4 +1,3 @@
-[README_ClinkNBuy.md](https://github.com/user-attachments/files/27235284/README_ClinkNBuy.md)
 # 🛒 ClinkNBuy — E-Commerce Web Application
 
 A multi-tier e-commerce web application with product listing, cart management, and order placement — built with React.js and Spring Boot.
@@ -19,20 +18,23 @@ https://github.com/user-attachments/assets/fb7b7e94-8ad8-4803-ab7b-16b573368a67
 
 ## 📸 Screenshots
 
-### Home / Product Listing
-[![Home](screenshots/home.png)](screenshots/home.png)
+### Login page
+[![Login](screenshots/home.png)](screenshots/login_page.png)
 
-### Product Details
-[![Product Details](screenshots/product_details.png)](screenshots/product_details.png)
+### Login success
+[![LoginSuccess](screenshots/product_details.png)](screenshots/login_pg_success.png)
 
-### Shopping Cart
-[![Cart](screenshots/cart.png)](screenshots/cart.png)
+### Registration page
+[![Registration](screenshots/cart.png)](screenshots/register_pg.png)
 
-### Payment
-[![Payment](screenshots/payment.png)](screenshots/payment.png)
+### Registration OTP
+[![RegistrationSuccess](screenshots/payment.png)](screenshots/register_pg_otp.png)
 
-### Orders
-[![Orders](screenshots/orders.png)](screenshots/orders.png)
+### OTP page
+[![OTP](screenshots/orders.png)](screenshots/otp_pg.png)
+
+### OTP success
+[![OTPsuccess](screenshots/orders.png)](screenshots/otp_page_success.png)
 
 ---
 
@@ -56,7 +58,6 @@ https://github.com/user-attachments/assets/fb7b7e94-8ad8-4803-ab7b-16b573368a67
 - 📦 Order placement and order history
 - 🔐 User authentication with server-side validation
 - 💳 Payment integration via Razorpay
-- 📱 Responsive UI for desktop and mobile
 
 ---
 
@@ -64,18 +65,12 @@ https://github.com/user-attachments/assets/fb7b7e94-8ad8-4803-ab7b-16b573368a67
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| POST | `/api/auth/register` | Register a new user |
-| POST | `/api/auth/login` | User login |
-| GET | `/api/products` | Get all products |
-| GET | `/api/products/{id}` | Get product by ID |
-| POST | `/api/admin/products` | Add a new product (Admin only) |
-| PUT | `/api/admin/products/{id}` | Update a product (Admin only) |
-| DELETE | `/api/admin/products/{id}` | Delete a product (Admin only) |
-| GET | `/api/cart` | Get cart items |
-| POST | `/api/cart` | Add item to cart |
-| DELETE | `/api/cart/{id}` | Remove item from cart |
-| POST | `/api/orders` | Place an order |
-| GET | `/api/orders` | Get order history |
+| POST | `/api/v1/auth/register` | Create Admin, Seller or Customer |
+| POST | `/api/v1/auth/verify-otp` | Admin Verification |
+| POST | `/api/v1/seller/products` | Seller adding products |
+| GET | `/api/v1/admin/products` | Admin get product |
+| POST | `/api/v1/products` | Get products |
+| POST | `/api/v1/admin/products/{id}` | Approve a product (Admin only) |
 
 ---
 
