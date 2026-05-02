@@ -4,12 +4,6 @@ A multi-tier e-commerce web application with product listing, cart management, a
 
 ---
 
-## 🚀 Live Demo
-
-**[Live Link](#)** ← *(Coming soon)*
-
----
-
 ## 🎥 Project Demo
 
 https://github.com/user-attachments/assets/fb7b7e94-8ad8-4803-ab7b-16b573368a67
